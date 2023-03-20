@@ -7,7 +7,7 @@ setup(
     author='Vanja Štefanec',
     packages=['pybtex_biblatex'],
     entry_points={
-        'pybtex.database.input': 'bib = pybtex_biblatex:BibLaTeXParser',
+        'pybtex.database.input': 'biblatex = pybtex_biblatex:BibLaTeXParser',
         'pybtex.database.input.suffixes': '.bib = pybtex_biblatex:BibLaTeXParser',
     },
     install_requires=['pybtex', 'pylatexenc']
