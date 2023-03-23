@@ -5,6 +5,7 @@ from pybtex import textutils
 from pybtex.bibtex.utils import split_name_list
 from pybtex.database import Entry, Person
 from pybtex.database.input.bibtex import DuplicateField, Parser
+from pybtex.database.output.bibtex import Writer as BibLaTeXWriter  # NOQA
 from pylatexenc.latex2text import LatexNodes2Text
 
 

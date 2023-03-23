@@ -1,4 +1,4 @@
-from .biblatex import BibLaTeXParser
+from .biblatex import BibLaTeXParser, BibLaTeXWriter
 
 
-__all__ = ['BibLaTeXParser']
+__all__ = ['BibLaTeXParser', 'BibLaTeXWriter']
